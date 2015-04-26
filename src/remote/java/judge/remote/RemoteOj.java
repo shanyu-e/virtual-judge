@@ -24,5 +24,5 @@ public enum RemoteOj {
     UVALive, //
     ZOJ, //
     ZTrening, //
-
+    Saikr, //Dj
 }

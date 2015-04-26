@@ -12,6 +12,7 @@ import judge.remote.provider.acdream.ACdreamInfo;
 import judge.remote.provider.aizu.AizuInfo;
 import judge.remote.provider.codeforces.CodeForcesInfo;
 import judge.remote.provider.csu.CSUInfo;
+import judge.remote.provider.saikr.SaikrInfo;//Saikr
 import judge.remote.provider.fzu.FZUInfo;
 import judge.remote.provider.hdu.HDUInfo;
 import judge.remote.provider.hust.HUSTInfo;
@@ -19,6 +20,7 @@ import judge.remote.provider.hysbz.HYSBZInfo;
 import judge.remote.provider.lightoj.LightOJInfo;
 import judge.remote.provider.nbut.NBUTInfo;
 import judge.remote.provider.poj.POJInfo;
+//import judge.remote.provider.saikr.SaikrInfo;
 import judge.remote.provider.scu.SCUInfo;
 import judge.remote.provider.sgu.SGUInfo;
 import judge.remote.provider.spoj.SPOJInfo;
@@ -73,6 +75,7 @@ public class BaseAction extends ActionSupport implements ParameterAware {
         OJList.add(NBUTInfo.INFO);
         OJList.add(FZUInfo.INFO);
         OJList.add(CSUInfo.INFO);
+        OJList.add(SaikrInfo.INFO);  //Dj
         OJList.add(SCUInfo.INFO);
         OJList.add(ACdreamInfo.INFO);
         Collections.sort(OJList, new Comparator<RemoteOjInfo>() {
