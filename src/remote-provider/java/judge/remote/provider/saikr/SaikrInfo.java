@@ -11,6 +11,7 @@ public class SaikrInfo { //CSUInfo
             RemoteOj.Saikr, //RemoteOj.CSU
             "Saikr", //"CSU"
             new HttpHost("121.40.149.142") //new HttpHost("acm.csu.edu.cn")
+//            new HttpHost("acm.csu.edu.cn")
     );
     
     static {

@@ -18,7 +18,9 @@ public class SaikrCrawler extends SimpleCrawler { //CSUCrawler
 
     @Override
     protected String getProblemUrl(String problemId) {
-        return getHost().toURI() + "/problem.php?id=" + problemId;//"/OnlineJudge/problem.php?id="
+        return getHost().toURI() + "/JudgeOnline/problem.php?id=" + problemId;//"/OnlineJudge/problem.php?id="
+//        return "http://acm.csu.edu.cn/OnlineJudge/problem.php?id=" + problemId; //JudgeOnline/problem.php?id=
+//        return "http://acm.csu.edu.cn/OnlineJudge/problem.php?id=" + problemId;
     }
     
     @Override
